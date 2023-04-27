@@ -8,9 +8,10 @@
 import UIKit
 
 final class PersonListViewController: UITableViewController {
-
+    // MARK: - Private Properties
     private let persons = Person.getPersons()
     
+    // MARK: - View Life Sycle
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.backgroundView = UIImageView(image: UIImage(named: "bg-image"))
