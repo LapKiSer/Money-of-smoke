@@ -47,7 +47,7 @@
         <!--Полное имя -->
         <scene sceneID="1hp-7j-8jt">
             <objects>
-                <viewController id="yqz-aT-FNq" customClass="InfoViewController" customModule="Money_of_smoke" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="VCRoman" useStoryboardIdentifierAsRestorationIdentifier="YES" id="yqz-aT-FNq" customClass="InfoViewController" customModule="Money_of_smoke" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" restorationIdentifier="VCRoman" id="T3j-q1-Eqc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

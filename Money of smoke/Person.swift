@@ -6,12 +6,12 @@
 //
 
 struct Person {
-    var name: String
-    var surname: String
-    var age: String
-    var id: String
-    var biographie: String
-    var photo: String
+    let name: String
+    let surname: String
+    let age: String
+    let id: String
+    let biographie: String
+    let photo: String
     
     var fullName: String {
         "\(surname) \(name)"

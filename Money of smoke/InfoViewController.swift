@@ -7,7 +7,7 @@
 
 import UIKit
 
-class InfoViewController: UIViewController {
+final class InfoViewController: UIViewController {
     @IBOutlet var photoImage: UIImageView!
     
     @IBOutlet var nameLabel: UILabel!
@@ -28,8 +28,8 @@ class InfoViewController: UIViewController {
         idLabel.text = "Телеграм: \(person.id)"
         biographyTaxtView.text = person.biographie
         photoImage.image = UIImage(named: person.photo)
-        
     }
+    
     override func viewDidLayoutSubviews() {
         photoImage.layer.cornerRadius = photoImage.frame.width / 2
         photoOverlay()
@@ -39,7 +39,7 @@ class InfoViewController: UIViewController {
         let backgroundImage = UIImageView(image: UIImage(named: "bg-image"))
         backgroundImage.frame = CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.height)
         backgroundImage.contentMode = .scaleAspectFill
-        self.view.addSubview(backgroundImage)
-        self.view.sendSubviewToBack(backgroundImage)
+        view.addSubview(backgroundImage)
+        view.sendSubviewToBack(backgroundImage)
     }
 }
