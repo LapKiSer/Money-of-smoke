@@ -13,6 +13,10 @@ struct Calculator {
     var firstDate: Date
     var lastDate: Date
     
+    static func getValues() -> Calculator {
+        Calculator(cigarettePackagePrice: 0, cigarettesPerDay: 0, firstDate: Date(), lastDate: Date())
+    }
+    
     private let cigarettesPerPackage = 20.0
     
     var daysWithoutSmoking: Int {
