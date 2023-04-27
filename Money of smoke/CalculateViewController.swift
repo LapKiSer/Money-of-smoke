@@ -17,11 +17,14 @@ final class CalculateViewController: UIViewController {
     @IBOutlet var timeLabel: UILabel!
     @IBOutlet var lifeLabel: UILabel!
     
-    private var calculator = Calculator(cigarettePackagePrice: 0, cigarettesPerDay: 0, firstDate: Date(), lastDate: Date())
+    @IBOutlet var startButton: UIButton!
+    
+    private var calculator = Calculator.getValues()
     
     // MARK: - ViewlifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        startButton.tintColor = .systemMint
         updateLabels()
     }
     
