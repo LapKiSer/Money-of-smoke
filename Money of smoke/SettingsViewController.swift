@@ -25,11 +25,9 @@ final class SettingsViewController: UIViewController {
         costTextField.delegate = self
         quantityTextField.delegate = self
         
-        // устанавливаем нужный тип клавиатуры для текстовых полей
         costTextField.keyboardType = .decimalPad
         quantityTextField.keyboardType = .numberPad
         
-        // ограничитель для lastDatePicker
         lastDatePicker.minimumDate = firstDatePicker.date
     }
     
@@ -66,9 +64,9 @@ final class SettingsViewController: UIViewController {
             message: message,
             preferredStyle: .alert
         )
-        let okAction = UIAlertAction(title: "OK", style: .default) {_ in
-            textField?.text = "" // вставляет значение по умолчанию если значение не верно набрано
-            textField?.becomeFirstResponder() // опять вызывает клавиатуру после тапа на ОК
+        let okAction = UIAlertAction(title: "OK", style: .default) { _ in
+            textField?.text = ""
+            textField?.becomeFirstResponder()
         }
         alert.addAction(okAction)
         present(alert, animated: true)
@@ -79,10 +77,15 @@ final class SettingsViewController: UIViewController {
 // MARK: - UITextFieldDelegate
 extension SettingsViewController: UITextFieldDelegate {
     func textFieldDidEndEditing(_ textField: UITextField) {
-        guard let text = textField.text, !text.isEmpty, let value = Double(text), (1...1000).contains(value) else {
+        guard let text = textField.text, !text.isEmpty, let value = Double(text), (1...9999).contains(value) else {
             getAlert(withTitle: "Ошибка", andMessage: "Попробуйте еще..", textField: textField)
+            textField.layer.borderColor = UIColor.red.cgColor
+            textField.layer.borderWidth = 1
             return
         }
+        
+        textField.layer.borderColor = UIColor.clear.cgColor
+        textField.layer.borderWidth = 0
     }
     
     func textFieldDidBeginEditing(_ textField: UITextField) {
