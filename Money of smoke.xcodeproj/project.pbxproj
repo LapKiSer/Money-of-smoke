@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04624C7F29F9542500EA35D7 /* Motivation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04624C7E29F9542500EA35D7 /* Motivation.storyboard */; };
 		04624C8129F9545A00EA35D7 /* MotivationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04624C8029F9545A00EA35D7 /* MotivationViewController.swift */; };
 		04AD9BFC29FAD95B0012E297 /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD9BFB29FAD95B0012E297 /* Quotes.swift */; };
 		8E84FD6129F82019004B012A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E84FD6029F82019004B012A /* AppDelegate.swift */; };
@@ -19,7 +18,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		04624C7E29F9542500EA35D7 /* Motivation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Motivation.storyboard; sourceTree = "<group>"; };
 		04624C8029F9545A00EA35D7 /* MotivationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationViewController.swift; sourceTree = "<group>"; };
 		04AD9BFB29FAD95B0012E297 /* Quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
 		8E84FD5D29F82019004B012A /* Money of smoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Money of smoke.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,7 +67,6 @@
 				8E84FD6929F82019004B012A /* Assets.xcassets */,
 				8E84FD6B29F82019004B012A /* LaunchScreen.storyboard */,
 				8E84FD6E29F82019004B012A /* Info.plist */,
-				04624C7E29F9542500EA35D7 /* Motivation.storyboard */,
 				04624C8029F9545A00EA35D7 /* MotivationViewController.swift */,
 				04AD9BFB29FAD95B0012E297 /* Quotes.swift */,
 			);
@@ -136,7 +133,6 @@
 			files = (
 				8E84FD6D29F82019004B012A /* LaunchScreen.storyboard in Resources */,
 				8E84FD6A29F82019004B012A /* Assets.xcassets in Resources */,
-				04624C7F29F9542500EA35D7 /* Motivation.storyboard in Resources */,
 				8E84FD6829F82019004B012A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
