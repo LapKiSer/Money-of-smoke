@@ -16,6 +16,7 @@ final class SettingsViewController: UIViewController {
     @IBOutlet var firstDatePicker: UIDatePicker!
     @IBOutlet var lastDatePicker: UIDatePicker!
     
+    var calculator: Calculator!
     unowned var delegate: SettingsViewControllerDelegate!
     
     // MARK: - ViewLifeCycle
@@ -29,6 +30,11 @@ final class SettingsViewController: UIViewController {
         quantityTextField.keyboardType = .numberPad
         
         lastDatePicker.minimumDate = firstDatePicker.date
+        
+        if calculator.isValuesSet {
+            costTextField.text = String(format: "%.2f", calculator.cigarettePackagePrice)
+            quantityTextField.text = String(format: "%d", calculator.cigarettesPerDay)
+        }
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
