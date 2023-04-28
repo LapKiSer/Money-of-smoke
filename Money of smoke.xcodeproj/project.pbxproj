@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		04624C8129F9545A00EA35D7 /* MotivationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04624C8029F9545A00EA35D7 /* MotivationViewController.swift */; };
 		04AD9BFC29FAD95B0012E297 /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD9BFB29FAD95B0012E297 /* Quotes.swift */; };
-		2C68961829F8622B0087C8BD /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C68961729F8622B0087C8BD /* Storyboard.storyboard */; };
 		2C68961A29F864E80087C8BD /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C68961929F864E80087C8BD /* InfoViewController.swift */; };
 		2C68961C29F865680087C8BD /* PersonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C68961B29F865680087C8BD /* PersonListViewController.swift */; };
 		2C68961E29F865B00087C8BD /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C68961D29F865B00087C8BD /* Person.swift */; };
@@ -24,7 +23,6 @@
 /* Begin PBXFileReference section */
 		04624C8029F9545A00EA35D7 /* MotivationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationViewController.swift; sourceTree = "<group>"; };
 		04AD9BFB29FAD95B0012E297 /* Quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
-		2C68961729F8622B0087C8BD /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		2C68961929F864E80087C8BD /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		2C68961B29F865680087C8BD /* PersonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListViewController.swift; sourceTree = "<group>"; };
 		2C68961D29F865B00087C8BD /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
@@ -74,7 +72,6 @@
 				2C68961929F864E80087C8BD /* InfoViewController.swift */,
 				2C68961D29F865B00087C8BD /* Person.swift */,
 				2C68961F29F865D20087C8BD /* CreatorsDataStorage.swift */,
-				2C68961729F8622B0087C8BD /* Storyboard.storyboard */,
 				8E84FD6629F82019004B012A /* Main.storyboard */,
 				8E84FD6929F82019004B012A /* Assets.xcassets */,
 				8E84FD6B29F82019004B012A /* LaunchScreen.storyboard */,
@@ -144,7 +141,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E84FD6D29F82019004B012A /* LaunchScreen.storyboard in Resources */,
-				2C68961829F8622B0087C8BD /* Storyboard.storyboard in Resources */,
 				8E84FD6A29F82019004B012A /* Assets.xcassets in Resources */,
 				8E84FD6829F82019004B012A /* Main.storyboard in Resources */,
 			);
@@ -158,7 +154,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				04AD9BFC29FAD95B0012E297 /* Quotes.swift in Sources */,
-				8E84FD6529F82019004B012A /* ViewController.swift in Sources */,
 				2C68961E29F865B00087C8BD /* Person.swift in Sources */,
 				8E84FD6129F82019004B012A /* AppDelegate.swift in Sources */,
 				04624C8129F9545A00EA35D7 /* MotivationViewController.swift in Sources */,
