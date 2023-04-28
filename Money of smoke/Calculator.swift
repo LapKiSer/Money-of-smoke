@@ -8,16 +8,10 @@
 import Foundation
 
 struct Calculator {
-    var cigarettePackagePrice: Double
-    var cigarettesPerDay: Int
-    var firstDate: Date
-    var lastDate: Date
-    
-    static func getValues() -> Calculator {
-        Calculator(cigarettePackagePrice: 0, cigarettesPerDay: 0, firstDate: Date(), lastDate: Date())
-    }
-    
-    private let cigarettesPerPackage = 20.0
+    let cigarettePackagePrice: Double
+    let cigarettesPerDay: Int
+    let firstDate: Date
+    let lastDate: Date
     
     var daysWithoutSmoking: Int {
         if cigarettesPerPackage == 0 || cigarettesPerDay == 0 || firstDate == lastDate {
@@ -40,5 +34,15 @@ struct Calculator {
         let lifeSavedPerDay = Double(cigarettesPerDay * minutesSavedPerCigarette)
         return lifeSavedPerDay * Double(daysWithoutSmoking) / (24 * 60)
     }
+    
+    var isValuesSet: Bool {
+        return cigarettePackagePrice != 0 && cigarettesPerDay != 0
+    }
+    
+    private let cigarettesPerPackage = 20.0
 
+    static func getValues() -> Calculator {
+        Calculator(cigarettePackagePrice: 0, cigarettesPerDay: 0, firstDate: Date(), lastDate: Date())
+    }
+    
 }
