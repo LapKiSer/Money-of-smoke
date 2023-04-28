@@ -32,14 +32,15 @@ final class CalculateViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let settingsVC = segue.destination as? SettingsViewController {
             settingsVC.delegate = self
+            settingsVC.calculator = calculator
         }
     }
     
     // MARK: - PrivateMethods
     private func updateLabels() {
-        moneyLabel.text = String(format: "%.1f руб.", calculator.moneySaved)
-        timeLabel.text = String(format: "%d дн.", calculator.daysWithoutSmoking)
-        lifeLabel.text = String(format: "%.1f дн.", calculator.lifeSavedDays)
+        moneyLabel.text = String(format: "%.1f", calculator.moneySaved)
+        timeLabel.text = String(format: "%d", calculator.daysWithoutSmoking)
+        lifeLabel.text = String(format: "%.1f", calculator.lifeSavedDays)
     }
 
 }
