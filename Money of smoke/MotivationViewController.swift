@@ -5,7 +5,6 @@
 //  Created by Stacy on 26/04/2023.
 //
 
-import Foundation
 import UIKit
 
 final class Motivation: UIViewController {
@@ -13,7 +12,7 @@ final class Motivation: UIViewController {
     @IBOutlet weak var motivationLabel: UILabel!
     @IBOutlet weak var moreButton: UIButton!
     
-    var quotes = Quotes()
+    let quotes = Quotes()
     
     override func viewDidLoad() {
         super.viewDidLoad()
