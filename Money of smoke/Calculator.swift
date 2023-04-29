@@ -44,5 +44,4 @@ struct Calculator {
     static func getValues() -> Calculator {
         Calculator(cigarettePackagePrice: 0, cigarettesPerDay: 0, firstDate: Date(), lastDate: Date())
     }
-    
 }

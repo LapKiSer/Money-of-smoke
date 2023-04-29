@@ -77,7 +77,6 @@ final class SettingsViewController: UIViewController {
         alert.addAction(okAction)
         present(alert, animated: true)
     }
-        
 }
 
 // MARK: - UITextFieldDelegate

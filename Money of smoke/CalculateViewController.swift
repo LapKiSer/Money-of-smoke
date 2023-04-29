@@ -42,7 +42,6 @@ final class CalculateViewController: UIViewController {
         timeLabel.text = String(format: "%d", calculator.daysWithoutSmoking)
         lifeLabel.text = String(format: "%.1f", calculator.lifeSavedDays)
     }
-
 }
 
 // MARK: - SettingsViewControllerDelegate
