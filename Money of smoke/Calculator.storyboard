@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -187,7 +188,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="STr-Zi-kQb">
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="WsQ-F8-AzA">
                                 <rect key="frame" x="16" y="463.5" width="288" height="51"/>
                                 <subviews>
                                     <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="mT8-QQ-9gb">
@@ -204,7 +205,6 @@
                         <viewLayoutGuide key="safeArea" id="Z4x-My-WEI"/>
                         <color key="backgroundColor" red="0.070588235294117646" green="0.10980392156862745" blue="0.16862745098039217" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="Z4x-My-WEI" firstAttribute="trailing" secondItem="STr-Zi-kQb" secondAttribute="trailing" constant="16" id="0IT-hT-W7d"/>
                             <constraint firstItem="nEO-Mo-ggt" firstAttribute="top" secondItem="LCW-CC-7vs" secondAttribute="bottom" constant="20" id="3aY-LN-We6"/>
                             <constraint firstItem="Z4x-My-WEI" firstAttribute="trailing" secondItem="1ol-js-ehv" secondAttribute="trailing" constant="16" id="4Xi-um-UN7"/>
                             <constraint firstItem="5dp-GE-Zo9" firstAttribute="leading" secondItem="Z4x-My-WEI" secondAttribute="leading" id="64l-qz-934"/>
@@ -212,15 +212,17 @@
                             <constraint firstItem="5dp-GE-Zo9" firstAttribute="bottom" secondItem="XMX-Lm-q1U" secondAttribute="bottom" id="A73-e3-Tqt"/>
                             <constraint firstItem="5dp-GE-Zo9" firstAttribute="trailing" secondItem="Z4x-My-WEI" secondAttribute="trailing" id="Cdc-1H-N9k"/>
                             <constraint firstItem="Z4x-My-WEI" firstAttribute="trailing" secondItem="LCW-CC-7vs" secondAttribute="trailing" constant="16" id="CxV-de-opk"/>
+                            <constraint firstItem="WsQ-F8-AzA" firstAttribute="leading" secondItem="Z4x-My-WEI" secondAttribute="leading" constant="16" id="EyX-id-eh4"/>
                             <constraint firstItem="Z4x-My-WEI" firstAttribute="trailing" secondItem="GSK-7n-kaY" secondAttribute="trailing" constant="16" id="In7-Uk-xFv"/>
+                            <constraint firstItem="WsQ-F8-AzA" firstAttribute="top" secondItem="nEO-Mo-ggt" secondAttribute="bottom" constant="8" id="JZu-ao-NFF"/>
                             <constraint firstItem="74p-WP-2oH" firstAttribute="leading" secondItem="Z4x-My-WEI" secondAttribute="leading" constant="16" id="RrV-kI-XP6"/>
                             <constraint firstItem="LCW-CC-7vs" firstAttribute="top" secondItem="Lze-Ia-nJU" secondAttribute="bottom" constant="8" id="SVv-JS-bNE"/>
                             <constraint firstItem="Z4x-My-WEI" firstAttribute="trailing" secondItem="nEO-Mo-ggt" secondAttribute="trailing" constant="16" id="Sz9-Q1-pVW"/>
                             <constraint firstItem="nEO-Mo-ggt" firstAttribute="leading" secondItem="Z4x-My-WEI" secondAttribute="leading" constant="16" id="VTK-J0-aFz"/>
-                            <constraint firstItem="STr-Zi-kQb" firstAttribute="top" secondItem="nEO-Mo-ggt" secondAttribute="bottom" constant="8" id="ZxS-My-gi0"/>
                             <constraint firstItem="1ol-js-ehv" firstAttribute="leading" secondItem="Z4x-My-WEI" secondAttribute="leading" constant="16" id="abC-6k-YWQ"/>
                             <constraint firstItem="GSK-7n-kaY" firstAttribute="top" secondItem="1ol-js-ehv" secondAttribute="bottom" constant="40" id="eWx-v1-ZRK"/>
                             <constraint firstItem="1ol-js-ehv" firstAttribute="top" secondItem="Z4x-My-WEI" secondAttribute="top" constant="8" id="f3B-yz-Z24"/>
+                            <constraint firstItem="Z4x-My-WEI" firstAttribute="trailing" secondItem="WsQ-F8-AzA" secondAttribute="trailing" constant="16" id="ksx-2y-QhZ"/>
                             <constraint firstItem="GSK-7n-kaY" firstAttribute="leading" secondItem="Z4x-My-WEI" secondAttribute="leading" constant="16" id="sTt-as-pqG"/>
                             <constraint firstItem="Z4x-My-WEI" firstAttribute="trailing" secondItem="Lze-Ia-nJU" secondAttribute="trailing" constant="16" id="uRW-bw-z8L"/>
                             <constraint firstItem="74p-WP-2oH" firstAttribute="top" secondItem="GSK-7n-kaY" secondAttribute="bottom" constant="8" id="vQJ-aQ-5Po"/>
@@ -228,7 +230,6 @@
                             <constraint firstItem="5dp-GE-Zo9" firstAttribute="top" secondItem="XMX-Lm-q1U" secondAttribute="top" id="xuH-1G-Wjn"/>
                             <constraint firstItem="Z4x-My-WEI" firstAttribute="trailing" secondItem="74p-WP-2oH" secondAttribute="trailing" constant="16" id="yZt-kS-gin"/>
                             <constraint firstItem="Lze-Ia-nJU" firstAttribute="top" secondItem="74p-WP-2oH" secondAttribute="bottom" constant="20" id="zSS-ud-53v"/>
-                            <constraint firstItem="STr-Zi-kQb" firstAttribute="leading" secondItem="Z4x-My-WEI" secondAttribute="leading" constant="16" id="zwT-tJ-wna"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Настройки" id="afY-bl-SrN">
