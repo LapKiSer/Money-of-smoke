@@ -37,7 +37,7 @@ extension CompanyListViewController {
         
         content.text = company.companyName
         content.textProperties.color = .white
-        content.textProperties.font = UIFont.systemFont(ofSize: 17, weight: .semibold)
+        content.textProperties.font = UIFont.systemFont(ofSize: 19, weight: .semibold)
         
         cell.contentConfiguration = content
         

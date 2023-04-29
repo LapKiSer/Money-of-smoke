@@ -9,7 +9,7 @@ import UIKit
 
 final class CompanyInformationViewController: UIViewController {
    
-    @IBOutlet weak var companyTextView: UITextView!
+    @IBOutlet var companyTextView: UITextView!
     
     var company: Company!
     

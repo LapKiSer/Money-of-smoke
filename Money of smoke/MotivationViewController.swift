@@ -9,8 +9,7 @@ import UIKit
 
 final class Motivation: UIViewController {
     
-    @IBOutlet weak var motivationLabel: UILabel!
-    @IBOutlet weak var moreButton: UIButton!
+    @IBOutlet  var motivationLabel: UILabel!
     
     let quotes = Quotes()
     
