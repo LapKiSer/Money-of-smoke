@@ -13,6 +13,10 @@
 		8E84FD6829F82019004B012A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E84FD6629F82019004B012A /* Main.storyboard */; };
 		8E84FD6A29F82019004B012A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E84FD6929F82019004B012A /* Assets.xcassets */; };
 		8E84FD6D29F82019004B012A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E84FD6B29F82019004B012A /* LaunchScreen.storyboard */; };
+		FA058DC529FDBFBB006FE279 /* Calculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA058DC429FDBFBB006FE279 /* Calculator.storyboard */; };
+		FA058DC729FDBFE9006FE279 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA058DC629FDBFE9006FE279 /* Calculator.swift */; };
+		FA058DC929FDC012006FE279 /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA058DC829FDC012006FE279 /* CalculateViewController.swift */; };
+		FA058DCB29FDC029006FE279 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA058DCA29FDC029006FE279 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		8E84FD6929F82019004B012A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E84FD6C29F82019004B012A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E84FD6E29F82019004B012A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA058DC429FDBFBB006FE279 /* Calculator.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calculator.storyboard; sourceTree = "<group>"; };
+		FA058DC629FDBFE9006FE279 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		FA058DC829FDC012006FE279 /* CalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
+		FA058DCA29FDC029006FE279 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 		8E84FD5F29F82019004B012A /* Money of smoke */ = {
 			isa = PBXGroup;
 			children = (
+				FA058DC429FDBFBB006FE279 /* Calculator.storyboard */,
+				FA058DC629FDBFE9006FE279 /* Calculator.swift */,
+				FA058DC829FDC012006FE279 /* CalculateViewController.swift */,
+				FA058DCA29FDC029006FE279 /* SettingsViewController.swift */,
 				8E84FD6029F82019004B012A /* AppDelegate.swift */,
 				8E84FD6229F82019004B012A /* SceneDelegate.swift */,
 				8E84FD6429F82019004B012A /* ViewController.swift */,
@@ -127,6 +139,7 @@
 			files = (
 				8E84FD6D29F82019004B012A /* LaunchScreen.storyboard in Resources */,
 				8E84FD6A29F82019004B012A /* Assets.xcassets in Resources */,
+				FA058DC529FDBFBB006FE279 /* Calculator.storyboard in Resources */,
 				8E84FD6829F82019004B012A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E84FD6529F82019004B012A /* ViewController.swift in Sources */,
+				FA058DC729FDBFE9006FE279 /* Calculator.swift in Sources */,
 				8E84FD6129F82019004B012A /* AppDelegate.swift in Sources */,
+				FA058DC929FDC012006FE279 /* CalculateViewController.swift in Sources */,
 				8E84FD6329F82019004B012A /* SceneDelegate.swift in Sources */,
+				FA058DCB29FDC029006FE279 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,8 +308,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,9 +317,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "L.K.S..Money-of-smoke";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,8 +338,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,9 +347,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "L.K.S..Money-of-smoke";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
