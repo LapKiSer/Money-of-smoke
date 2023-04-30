@@ -2,7 +2,7 @@
 //  Calculator.swift
 //  Money of smoke
 //
-//  Created by Alex on 29.04.2023.
+//  Created by Alex on 26.04.2023.
 //
 
 import Foundation
