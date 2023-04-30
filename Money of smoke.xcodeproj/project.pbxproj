@@ -24,8 +24,6 @@
 		8EF774AF29FE5B5B00B4A6EA /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF774AB29FE5B5B00B4A6EA /* Calculator.swift */; };
 		8EF774B029FE5B5B00B4A6EA /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF774AC29FE5B5B00B4A6EA /* CalculateViewController.swift */; };
 		8EF774B129FE5B5B00B4A6EA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF774AD29FE5B5B00B4A6EA /* SettingsViewController.swift */; };
-		8EF774B429FE6AA300B4A6EA /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF774B329FE6AA300B4A6EA /* TabBarController.swift */; };
-		8EF774B629FE6CB000B4A6EA /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF774B529FE6CB000B4A6EA /* Protocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,8 +46,6 @@
 		8EF774AB29FE5B5B00B4A6EA /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		8EF774AC29FE5B5B00B4A6EA /* CalculateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
 		8EF774AD29FE5B5B00B4A6EA /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		8EF774B329FE6AA300B4A6EA /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		8EF774B529FE6CB000B4A6EA /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +62,9 @@
 		8E84FD5429F82019004B012A = {
 			isa = PBXGroup;
 			children = (
+				8EF774BC29FED12F00B4A6EA /* ViewControllers */,
+				8EF774BB29FED0FA00B4A6EA /* DataStorage */,
+				8EF774BA29FED0B700B4A6EA /* SupportingFiles */,
 				8E84FD5F29F82019004B012A /* Money of smoke */,
 				8E84FD5E29F82019004B012A /* Products */,
 			);
@@ -82,28 +81,47 @@
 		8E84FD5F29F82019004B012A /* Money of smoke */ = {
 			isa = PBXGroup;
 			children = (
-				8EF774AC29FE5B5B00B4A6EA /* CalculateViewController.swift */,
-				8EF774AB29FE5B5B00B4A6EA /* Calculator.swift */,
-				8EF774AD29FE5B5B00B4A6EA /* SettingsViewController.swift */,
 				8E84FD6029F82019004B012A /* AppDelegate.swift */,
 				8E84FD6229F82019004B012A /* SceneDelegate.swift */,
-				2C68961B29F865680087C8BD /* PersonListViewController.swift */,
-				2C68961929F864E80087C8BD /* InfoViewController.swift */,
-				8EF774B329FE6AA300B4A6EA /* TabBarController.swift */,
-				2C68961D29F865B00087C8BD /* Person.swift */,
-				2C68961F29F865D20087C8BD /* CreatorsDataStorage.swift */,
 				8E84FD6629F82019004B012A /* Main.storyboard */,
-				8EF774B529FE6CB000B4A6EA /* Protocols.swift */,
+			);
+			path = "Money of smoke";
+			sourceTree = "<group>";
+		};
+		8EF774BA29FED0B700B4A6EA /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
 				8E84FD6929F82019004B012A /* Assets.xcassets */,
 				8E84FD6B29F82019004B012A /* LaunchScreen.storyboard */,
 				8E84FD6E29F82019004B012A /* Info.plist */,
-				04624C8029F9545A00EA35D7 /* MotivationViewController.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		8EF774BB29FED0FA00B4A6EA /* DataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				2C68961F29F865D20087C8BD /* CreatorsDataStorage.swift */,
+				8EF774AB29FE5B5B00B4A6EA /* Calculator.swift */,
+				2C68961D29F865B00087C8BD /* Person.swift */,
 				04AD9BFB29FAD95B0012E297 /* Quotes.swift */,
-				84FE3F8929F99F88009FF50C /* CompanyListViewController.swift */,
-				84FE3F8D29F9A1B5009FF50C /* CompanyInformationViewController.swift */,
 				84FE3F8B29F99FFB009FF50C /* Company.swift */,
 			);
-			path = "Money of smoke";
+			path = DataStorage;
+			sourceTree = "<group>";
+		};
+		8EF774BC29FED12F00B4A6EA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8EF774AC29FE5B5B00B4A6EA /* CalculateViewController.swift */,
+				8EF774AD29FE5B5B00B4A6EA /* SettingsViewController.swift */,
+				2C68961B29F865680087C8BD /* PersonListViewController.swift */,
+				2C68961929F864E80087C8BD /* InfoViewController.swift */,
+				04624C8029F9545A00EA35D7 /* MotivationViewController.swift */,
+				84FE3F8929F99F88009FF50C /* CompanyListViewController.swift */,
+				84FE3F8D29F9A1B5009FF50C /* CompanyInformationViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,7 +198,6 @@
 				04AD9BFC29FAD95B0012E297 /* Quotes.swift in Sources */,
 				2C68961E29F865B00087C8BD /* Person.swift in Sources */,
 				8E84FD6129F82019004B012A /* AppDelegate.swift in Sources */,
-				8EF774B429FE6AA300B4A6EA /* TabBarController.swift in Sources */,
 				04624C8129F9545A00EA35D7 /* MotivationViewController.swift in Sources */,
 				2C68962029F865D20087C8BD /* CreatorsDataStorage.swift in Sources */,
 				8EF774AF29FE5B5B00B4A6EA /* Calculator.swift in Sources */,
@@ -192,7 +209,6 @@
 				84FE3F8A29F99F88009FF50C /* CompanyListViewController.swift in Sources */,
 				84FE3F8E29F9A1B5009FF50C /* CompanyInformationViewController.swift in Sources */,
 				84FE3F8C29F99FFB009FF50C /* Company.swift in Sources */,
-				8EF774B629FE6CB000B4A6EA /* Protocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +357,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Money of smoke/Info.plist";
+				INFOPLIST_FILE = "Money of smoke/SupportFiles/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -374,7 +390,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Money of smoke/Info.plist";
+				INFOPLIST_FILE = "Money of smoke/SupportFiles/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
