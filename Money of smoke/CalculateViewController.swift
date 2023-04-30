@@ -16,9 +16,7 @@ final class CalculateViewController: UIViewController {
     @IBOutlet var moneyLabel: UILabel!
     @IBOutlet var timeLabel: UILabel!
     @IBOutlet var lifeLabel: UILabel!
-    
-    @IBOutlet var startButton: UIButton!
-    
+            
     private var calculator = Calculator.getValues()
     
     // MARK: - ViewlifeCycle
@@ -33,7 +31,7 @@ final class CalculateViewController: UIViewController {
             settingsVC.delegate = self
             settingsVC.calculator = calculator
         }
-    }
+    }    
     
     // MARK: - PrivateMethods
     private func updateLabels() {

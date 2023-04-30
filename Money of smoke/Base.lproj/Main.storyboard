@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="K5L-bu-h0L">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="glH-xr-Dj8">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -11,11 +11,13 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Tab Bar Controller-->
+        <!--Прогресс-->
         <scene sceneID="7RC-ak-m7r">
             <objects>
-                <tabBarController id="glH-xr-Dj8" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="zjB-he-aQ6"/>
+                <tabBarController id="glH-xr-Dj8" customClass="TabBarController" customModule="Money_of_smoke" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="Прогресс" id="zjB-he-aQ6">
+                        <barButtonItem key="backBarButtonItem" title="Назад" id="CYd-oK-U8b"/>
+                    </navigationItem>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="06w-EB-yhy">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -24,15 +26,15 @@
                         <color key="selectedImageTintColor" systemColor="opaqueSeparatorColor"/>
                     </tabBar>
                     <connections>
-                        <segue destination="Vrb-u7-fJ4" kind="relationship" relationship="viewControllers" id="DXt-IK-peq"/>
-                        <segue destination="3sF-Dq-mNY" kind="relationship" relationship="viewControllers" id="UBf-0L-J45"/>
-                        <segue destination="Uad-pj-rKO" kind="relationship" relationship="viewControllers" id="TxB-EZ-Xb8"/>
-                        <segue destination="Ifv-cU-QQT" kind="relationship" relationship="viewControllers" id="tyL-QE-GSK"/>
+                        <segue destination="K5L-bu-h0L" kind="relationship" relationship="viewControllers" id="mqP-LF-og3"/>
+                        <segue destination="89N-PI-vbn" kind="relationship" relationship="viewControllers" id="Fua-gg-mYJ"/>
+                        <segue destination="S31-QY-uEc" kind="relationship" relationship="viewControllers" id="TwF-c0-doY"/>
+                        <segue destination="J04-xG-U4Y" kind="relationship" relationship="viewControllers" id="aqu-rn-tb9"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AD9-Y8-Q7k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="43" y="-281"/>
+            <point key="canvasLocation" x="57" y="-1051"/>
         </scene>
         <!--Motivation-->
         <scene sceneID="Wn4-0Z-3K5">
@@ -143,7 +145,9 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Команда" image="personalhotspot" catalog="system" id="5lB-Tt-cm2"/>
-                    <navigationItem key="navigationItem" title="Команда" id="G93-Hr-uxG"/>
+                    <navigationItem key="navigationItem" title="Команда" id="G93-Hr-uxG">
+                        <barButtonItem key="backBarButtonItem" title="Назад" id="1q2-HB-xxa"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EJV-yi-lo6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -193,7 +197,7 @@
                                 </constraints>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="fgfgdgg" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vgb-T7-KkU">
-                                <rect key="frame" x="16" y="413" width="343" height="234"/>
+                                <rect key="frame" x="16" y="413" width="343" height="185"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
@@ -280,7 +284,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Some text" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8Gn-fN-Zkj">
-                                <rect key="frame" x="16" y="132" width="343" height="519"/>
+                                <rect key="frame" x="16" y="132" width="343" height="470"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
@@ -408,7 +412,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gmo-x5-SOj">
-                                <rect key="frame" x="16" y="166" width="343" height="481"/>
+                                <rect key="frame" x="16" y="166" width="343" height="432"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Курение наносит страшный вред, так курящие в 13 раз чаще заболевают стенокардией, в 12 - инфарктом миокарда, в 10 раз - язвой желудка и в 30 раз —раком легких.
 Нет такого органа, который бы не поражался табаком: почки и мочевой пузырь, половые железы и кровеносные сосуды, головной мозг и печень.
@@ -565,12 +569,11 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Прогресс" image="dollarsign.arrow.circlepath" catalog="system" id="fTa-b7-VGu"/>
                     <navigationItem key="navigationItem" title="Прогресс" id="PpX-H6-vz3">
-                        <barButtonItem key="backBarButtonItem" title="Назад" id="aGj-hY-LBc"/>
+                        <barButtonItem key="backBarButtonItem" title="Назад" id="zm1-Ne-KDp"/>
                     </navigationItem>
                     <connections>
                         <outlet property="lifeLabel" destination="YTB-gt-iyW" id="ezJ-xz-CEU"/>
                         <outlet property="moneyLabel" destination="RkC-rR-KB3" id="ISa-8F-CbZ"/>
-                        <outlet property="startButton" destination="zc7-th-0e3" id="55v-AB-B26"/>
                         <outlet property="timeLabel" destination="H5a-hl-SGE" id="AxE-l0-eY2"/>
                     </connections>
                 </viewController>
@@ -688,10 +691,11 @@
             </objects>
             <point key="canvasLocation" x="-1182" y="1352"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Item-->
         <scene sceneID="KiH-H1-PM6">
             <objects>
-                <navigationController storyboardIdentifier="CalculatorNavigation" automaticallyAdjustsScrollViewInsets="NO" id="K5L-bu-h0L" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="K5L-bu-h0L" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="zRd-H5-dVb"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="dUq-Fm-EHV">
                         <rect key="frame" x="0.0" y="20" width="375" height="96"/>
@@ -706,12 +710,90 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="glH-xr-Dj8" kind="relationship" relationship="rootViewController" id="JyU-v1-ghb"/>
+                        <segue destination="Vrb-u7-fJ4" kind="relationship" relationship="rootViewController" id="jxi-hf-XPa"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8rc-8f-Fvl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-799" y="-281"/>
+            <point key="canvasLocation" x="-842" y="-252"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="gCr-5C-xeU">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="89N-PI-vbn" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="1Vb-QC-3NF"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="u08-mP-QD1">
+                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="3sF-Dq-mNY" kind="relationship" relationship="rootViewController" id="63T-hJ-AYA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wpF-ac-T6D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-114" y="-252"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="aLw-OR-HOr">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="S31-QY-uEc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="ijc-mT-8v8"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="aKu-AK-a8H">
+                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Uad-pj-rKO" kind="relationship" relationship="rootViewController" id="lMx-tm-rff"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zYM-10-K8F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="572" y="-252"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="L69-11-LBe">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="J04-xG-U4Y" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="XaG-zg-PJf"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="bKw-KV-Yu1">
+                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Ifv-cU-QQT" kind="relationship" relationship="rootViewController" id="Qbq-sf-yGD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yLN-Xw-p9z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1262" y="-252"/>
         </scene>
     </scenes>
     <resources>
