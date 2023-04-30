@@ -23,11 +23,8 @@ final class SettingsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        costTextField.delegate = self
+        costTextField.delegate = self        
         quantityTextField.delegate = self
-        
-        costTextField.keyboardType = .decimalPad
-        quantityTextField.keyboardType = .numberPad
         
         lastDatePicker.minimumDate = firstDatePicker.date
         
@@ -60,11 +57,7 @@ final class SettingsViewController: UIViewController {
     }
     
     // MARK: - PrivateMethods
-    private func getAlert(
-        withTitle title: String,
-        andMessage message: String,
-        textField: UITextField? = nil
-    ) {
+    private func getAlert(withTitle title: String, andMessage message: String, textField: UITextField? = nil) {
         let alert = UIAlertController(
             title: title,
             message: message,
