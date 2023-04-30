@@ -691,11 +691,11 @@
             </objects>
             <point key="canvasLocation" x="-1182" y="1352"/>
         </scene>
-        <!--Item-->
+        <!--Прогресс-->
         <scene sceneID="KiH-H1-PM6">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="K5L-bu-h0L" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="zRd-H5-dVb"/>
+                    <tabBarItem key="tabBarItem" title="Прогресс" id="zRd-H5-dVb"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="dUq-Fm-EHV">
                         <rect key="frame" x="0.0" y="20" width="375" height="96"/>
@@ -717,11 +717,11 @@
             </objects>
             <point key="canvasLocation" x="-842" y="-252"/>
         </scene>
-        <!--Item-->
+        <!--Инфо-->
         <scene sceneID="gCr-5C-xeU">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="89N-PI-vbn" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="1Vb-QC-3NF"/>
+                    <tabBarItem key="tabBarItem" title="Инфо" id="1Vb-QC-3NF"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="u08-mP-QD1">
                         <rect key="frame" x="0.0" y="20" width="375" height="96"/>
@@ -743,11 +743,11 @@
             </objects>
             <point key="canvasLocation" x="-114" y="-252"/>
         </scene>
-        <!--Item-->
+        <!--Мотивация-->
         <scene sceneID="aLw-OR-HOr">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="S31-QY-uEc" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="ijc-mT-8v8"/>
+                    <tabBarItem key="tabBarItem" title="Мотивация" id="ijc-mT-8v8"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="aKu-AK-a8H">
                         <rect key="frame" x="0.0" y="20" width="375" height="96"/>
@@ -769,11 +769,11 @@
             </objects>
             <point key="canvasLocation" x="572" y="-252"/>
         </scene>
-        <!--Item-->
+        <!--Команда-->
         <scene sceneID="L69-11-LBe">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="J04-xG-U4Y" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="XaG-zg-PJf"/>
+                    <tabBarItem key="tabBarItem" title="Команда" id="XaG-zg-PJf"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="bKw-KV-Yu1">
                         <rect key="frame" x="0.0" y="20" width="375" height="96"/>
