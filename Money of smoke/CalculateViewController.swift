@@ -24,7 +24,6 @@ final class CalculateViewController: UIViewController {
     // MARK: - ViewlifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        startButton.tintColor = .systemMint
         updateLabels()
     }
     
