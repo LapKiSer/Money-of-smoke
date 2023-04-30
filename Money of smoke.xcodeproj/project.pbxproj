@@ -13,7 +13,6 @@
 		2C68961C29F865680087C8BD /* PersonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C68961B29F865680087C8BD /* PersonListViewController.swift */; };
 		2C68961E29F865B00087C8BD /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C68961D29F865B00087C8BD /* Person.swift */; };
 		2C68962029F865D20087C8BD /* CreatorsDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C68961F29F865D20087C8BD /* CreatorsDataStorage.swift */; };
-		849C374D29FAF77100CB69F1 /* HistoryCompany.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849C374C29FAF77100CB69F1 /* HistoryCompany.storyboard */; };
 		84FE3F8A29F99F88009FF50C /* CompanyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FE3F8929F99F88009FF50C /* CompanyListViewController.swift */; };
 		84FE3F8C29F99FFB009FF50C /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FE3F8B29F99FFB009FF50C /* Company.swift */; };
 		84FE3F8E29F9A1B5009FF50C /* CompanyInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FE3F8D29F9A1B5009FF50C /* CompanyInformationViewController.swift */; };
@@ -25,7 +24,6 @@
 		8EF774AF29FE5B5B00B4A6EA /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF774AB29FE5B5B00B4A6EA /* Calculator.swift */; };
 		8EF774B029FE5B5B00B4A6EA /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF774AC29FE5B5B00B4A6EA /* CalculateViewController.swift */; };
 		8EF774B129FE5B5B00B4A6EA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF774AD29FE5B5B00B4A6EA /* SettingsViewController.swift */; };
-		8EF774B229FE5B5B00B4A6EA /* Calculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF774AE29FE5B5B00B4A6EA /* Calculator.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +33,6 @@
 		2C68961B29F865680087C8BD /* PersonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListViewController.swift; sourceTree = "<group>"; };
 		2C68961D29F865B00087C8BD /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		2C68961F29F865D20087C8BD /* CreatorsDataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorsDataStorage.swift; sourceTree = "<group>"; };
-		849C374C29FAF77100CB69F1 /* HistoryCompany.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HistoryCompany.storyboard; sourceTree = "<group>"; };
 		84FE3F8929F99F88009FF50C /* CompanyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyListViewController.swift; sourceTree = "<group>"; };
 		84FE3F8B29F99FFB009FF50C /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 		84FE3F8D29F9A1B5009FF50C /* CompanyInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyInformationViewController.swift; sourceTree = "<group>"; };
@@ -49,7 +46,6 @@
 		8EF774AB29FE5B5B00B4A6EA /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		8EF774AC29FE5B5B00B4A6EA /* CalculateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
 		8EF774AD29FE5B5B00B4A6EA /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		8EF774AE29FE5B5B00B4A6EA /* Calculator.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Calculator.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,23 +59,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		84FE3F9529F9CD55009FF50C /* Information catalog */ = {
-			isa = PBXGroup;
-			children = (
-				84FE3F8D29F9A1B5009FF50C /* CompanyInformationViewController.swift */,
-				84FE3F8B29F99FFB009FF50C /* Company.swift */,
-			);
-			path = "Information catalog";
-			sourceTree = "<group>";
-		};
-		84FE3F9629F9CD98009FF50C /* List Information */ = {
-			isa = PBXGroup;
-			children = (
-				84FE3F8929F99F88009FF50C /* CompanyListViewController.swift */,
-			);
-			path = "List Information";
-			sourceTree = "<group>";
-		};
 		8E84FD5429F82019004B012A = {
 			isa = PBXGroup;
 			children = (
@@ -100,7 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				8EF774AC29FE5B5B00B4A6EA /* CalculateViewController.swift */,
-				8EF774AE29FE5B5B00B4A6EA /* Calculator.storyboard */,
 				8EF774AB29FE5B5B00B4A6EA /* Calculator.swift */,
 				8EF774AD29FE5B5B00B4A6EA /* SettingsViewController.swift */,
 				8E84FD6029F82019004B012A /* AppDelegate.swift */,
@@ -110,14 +88,14 @@
 				2C68961D29F865B00087C8BD /* Person.swift */,
 				2C68961F29F865D20087C8BD /* CreatorsDataStorage.swift */,
 				8E84FD6629F82019004B012A /* Main.storyboard */,
-				849C374C29FAF77100CB69F1 /* HistoryCompany.storyboard */,
 				8E84FD6929F82019004B012A /* Assets.xcassets */,
 				8E84FD6B29F82019004B012A /* LaunchScreen.storyboard */,
 				8E84FD6E29F82019004B012A /* Info.plist */,
 				04624C8029F9545A00EA35D7 /* MotivationViewController.swift */,
 				04AD9BFB29FAD95B0012E297 /* Quotes.swift */,
-				84FE3F9629F9CD98009FF50C /* List Information */,
-				84FE3F9529F9CD55009FF50C /* Information catalog */,
+				84FE3F8929F99F88009FF50C /* CompanyListViewController.swift */,
+				84FE3F8D29F9A1B5009FF50C /* CompanyInformationViewController.swift */,
+				84FE3F8B29F99FFB009FF50C /* Company.swift */,
 			);
 			path = "Money of smoke";
 			sourceTree = "<group>";
@@ -181,8 +159,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E84FD6D29F82019004B012A /* LaunchScreen.storyboard in Resources */,
-				8EF774B229FE5B5B00B4A6EA /* Calculator.storyboard in Resources */,
-				849C374D29FAF77100CB69F1 /* HistoryCompany.storyboard in Resources */,
 				8E84FD6A29F82019004B012A /* Assets.xcassets in Resources */,
 				8E84FD6829F82019004B012A /* Main.storyboard in Resources */,
 			);
@@ -362,9 +338,9 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -372,9 +348,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "L.K.S..Money-of-smoke";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -392,9 +371,9 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -402,9 +381,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "L.K.S..Money-of-smoke";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
