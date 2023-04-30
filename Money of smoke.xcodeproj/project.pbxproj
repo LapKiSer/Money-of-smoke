@@ -22,6 +22,10 @@
 		8E84FD6829F82019004B012A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E84FD6629F82019004B012A /* Main.storyboard */; };
 		8E84FD6A29F82019004B012A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E84FD6929F82019004B012A /* Assets.xcassets */; };
 		8E84FD6D29F82019004B012A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E84FD6B29F82019004B012A /* LaunchScreen.storyboard */; };
+		8EF7749A29FE54DD00B4A6EA /* Calculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF7749929FE54DD00B4A6EA /* Calculator.storyboard */; };
+		8EF7749E29FE554700B4A6EA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF7749B29FE554700B4A6EA /* SettingsViewController.swift */; };
+		8EF7749F29FE554700B4A6EA /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF7749C29FE554700B4A6EA /* CalculateViewController.swift */; };
+		8EF774A029FE554700B4A6EA /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF7749D29FE554700B4A6EA /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +46,10 @@
 		8E84FD6929F82019004B012A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E84FD6C29F82019004B012A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E84FD6E29F82019004B012A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EF7749929FE54DD00B4A6EA /* Calculator.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Calculator.storyboard; sourceTree = "<group>"; };
+		8EF7749B29FE554700B4A6EA /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		8EF7749C29FE554700B4A6EA /* CalculateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
+		8EF7749D29FE554700B4A6EA /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,10 @@
 				2C68961D29F865B00087C8BD /* Person.swift */,
 				2C68961F29F865D20087C8BD /* CreatorsDataStorage.swift */,
 				8E84FD6629F82019004B012A /* Main.storyboard */,
+				8EF7749929FE54DD00B4A6EA /* Calculator.storyboard */,
+				8EF7749C29FE554700B4A6EA /* CalculateViewController.swift */,
+				8EF7749D29FE554700B4A6EA /* Calculator.swift */,
+				8EF7749B29FE554700B4A6EA /* SettingsViewController.swift */,
 				849C374C29FAF77100CB69F1 /* HistoryCompany.storyboard */,
 				8E84FD6929F82019004B012A /* Assets.xcassets */,
 				8E84FD6B29F82019004B012A /* LaunchScreen.storyboard */,
@@ -169,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E84FD6D29F82019004B012A /* LaunchScreen.storyboard in Resources */,
+				8EF7749A29FE54DD00B4A6EA /* Calculator.storyboard in Resources */,
 				849C374D29FAF77100CB69F1 /* HistoryCompany.storyboard in Resources */,
 				8E84FD6A29F82019004B012A /* Assets.xcassets in Resources */,
 				8E84FD6829F82019004B012A /* Main.storyboard in Resources */,
@@ -189,10 +202,13 @@
 				2C68962029F865D20087C8BD /* CreatorsDataStorage.swift in Sources */,
 				2C68961A29F864E80087C8BD /* InfoViewController.swift in Sources */,
 				8E84FD6329F82019004B012A /* SceneDelegate.swift in Sources */,
+				8EF7749F29FE554700B4A6EA /* CalculateViewController.swift in Sources */,
 				2C68961C29F865680087C8BD /* PersonListViewController.swift in Sources */,
+				8EF774A029FE554700B4A6EA /* Calculator.swift in Sources */,
 				84FE3F8A29F99F88009FF50C /* CompanyListViewController.swift in Sources */,
 				84FE3F8E29F9A1B5009FF50C /* CompanyInformationViewController.swift in Sources */,
 				84FE3F8C29F99FFB009FF50C /* Company.swift in Sources */,
+				8EF7749E29FE554700B4A6EA /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
